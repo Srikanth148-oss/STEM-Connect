@@ -11,13 +11,13 @@ header {
   text-align: center;
 }
 .logo {
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: bold;
+  color: #90caf9;
 }
 .tagline {
   font-size: 1em;
-  color: #aaa;
-  margin-bottom: 0.5em;
+  color: #ccc;
 }
 nav a {
   color: #90caf9;
@@ -35,4 +35,21 @@ footer {
   padding: 1em;
   background-color: #1f1f1f;
   margin-top: 2em;
+}
+.card {
+  background-color: #1e1e1e;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(255,255,255,0.1);
+}
+.slider {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2em;
+}
+.slider img {
+  width: 100%;
+  border-radius: 10px;
 }
